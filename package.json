@@ -1,0 +1,11 @@
+{
+  "name": "@react-express-boilerplate/react-express-boilerplate",
+  "version": "1.0.0",
+  "scripts": {
+    "setup": "lerna bootstrap && lerna link",
+    "start": "lerna run --parallel start"
+  },
+  "dependencies": {
+    "lerna": "^3.22.1"
+  }
+}
